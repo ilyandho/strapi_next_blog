@@ -1,0 +1,30 @@
+.container {
+  //   width: 100%;
+  //   margin: auto;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  .blogList {
+    grid-column: 2 / span 6;
+  }
+  aside {
+    grid-column: 9 / span 3;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(auto 1fr);
+
+    .blogList {
+      grid-column: 2 / span 10;
+    }
+    aside {
+      grid-column: 9 / span 3;
+    }
+  }
+}

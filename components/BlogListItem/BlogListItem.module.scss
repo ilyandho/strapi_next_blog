@@ -1,0 +1,61 @@
+.preview {
+  width: 100%;
+  min-width: 20ch;
+  max-width: 37ch;
+  height: auto;
+  img {
+    // height: 50%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-bottom: 1rem;
+  }
+
+  div {
+    a {
+      color: #333333;
+      font-weight: 600;
+      font-size: 1.5rem;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    p {
+      margin: 0.8rem 0.4rem;
+      opacity: 0.7;
+    }
+    div {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin: 0 0.5rem;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p {
+          line-height: 18px;
+          margin: 0;
+          font-size: 0.8rem;
+          font-style: italic;
+          font-weight: bold;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  hr {
+    width: 70%;
+    margin: 1rem 0 1.3rem;
+    color: beige;
+  }
+}
+
+.oddEven {
+}
